@@ -1,8 +1,13 @@
 import './App.css';
+import { Container } from 'react-bootstrap';
+// import Header from './components/Header';
 
-function App() {
+const App = () => {
   return (
-    <h1>React Employee Directory</h1>
+    <Container fluid>
+      <h1>React Employee Directory</h1>
+
+    </Container>
   );
 }
 
