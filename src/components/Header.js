@@ -1,10 +1,9 @@
 import './Header.css';
 import { Col, Row } from 'react-bootstrap';
-import './Header.css';
 
 const Header = () => {
   return (
-    <Row className='center-align flex-column background'>
+    <Row className='center-align flex-column background header'>
       <Col>
         <div className='center-align text-light pt-2'>
           <h2>React Employee Directory</h2>
