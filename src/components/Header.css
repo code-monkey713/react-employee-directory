@@ -3,10 +3,6 @@
 	justify-content: center;
 }
 
-.background {
-	background-color: blue;
-}
-
 .header {
-  border-bottom: rgb(196, 13, 13) solid 4px;
+  border-bottom: rgb(196, 13, 13) solid 2px;
 }
