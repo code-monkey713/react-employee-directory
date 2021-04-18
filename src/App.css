@@ -1,0 +1,22 @@
+.center-align {
+	display: flex;
+	justify-content: center;
+}
+
+.background {
+	background-color: dodgerblue;
+}
+
+.footer {
+  border-top: rgb(196, 13, 13) solid 3px;
+  width: 100%;
+  height: 35px;
+  position: fixed;
+  bottom: 0;
+  margin-top: 50px;
+}
+
+.header {
+  border-bottom: rgb(196, 13, 13) solid 3px;
+}
+

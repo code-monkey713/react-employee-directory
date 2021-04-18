@@ -1,4 +1,3 @@
-import './SearchBar.css';
 import { Col, Row } from 'react-bootstrap';
 
 const SearchBar = (props) => {
