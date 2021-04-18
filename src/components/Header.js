@@ -1,4 +1,3 @@
-// import './Header.css';
 import { Col, Row } from 'react-bootstrap';
 
 const Header = () => {
@@ -9,7 +8,7 @@ const Header = () => {
           <h2>React Employee Directory</h2>
         </div>
         <div className='center-align text-light pb-2'>
-          Click on carrots to filter by heading or use the search box to narrow your results.
+          Click on the column headers to sort or use the search box to narrow your results.
         </div>
       </Col>
     </Row>
