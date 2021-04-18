@@ -1,19 +1,27 @@
 import './SearchBar.css';
 import { Col, Row } from 'react-bootstrap';
 
-const SearchBar = () => {
+const SearchBar = (props) => {
   return (
-    <Row className='center-align flex-column background header'>
+    <Row className="center-align flex-column">
       <Col>
-        <div className='center-align text-light pt-2'>
-          <h2>React Employee Directory</h2>
-        </div>
-        <div className='center-align text-light pb-2'>
-          Click on carrots to filter by heading or use the search box to narrow your results.
-        </div>
+        <form>
+          <div className="form-group center-align">
+            <input
+              onChange={props.handleInputChange}
+              value={props.value}
+              name="search"
+              type="text"
+              className="form-control mt-2"
+              placeholder="Search For an employee"
+              id="search"
+            />
+            <hr />
+          </div>
+        </form>
       </Col>
     </Row>
   );
-}
+};
 
 export default SearchBar;

@@ -2,6 +2,7 @@ import './App.css';
 import { Container, Row, Col } from 'react-bootstrap';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import SearchBar from './components/SearchBar';
 
 const App = () => {
   return (
@@ -9,7 +10,7 @@ const App = () => {
       <Header />
       <Row>
         <Col>
-          This is where my search bar will be!
+          <SearchBar />
         </Col>
       </Row>
       <Row>
