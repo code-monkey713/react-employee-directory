@@ -1,17 +1,56 @@
 import './EmployeeTable.css';
 import { Col, Row } from 'react-bootstrap';
+// import { Component } from 'react';
+// import { useState } from 'react';
+// import { useTable } from 'react-table';
 
-const EmployeeTable = () => {
+const EmployeeTable = (props) => {
+  // const [data, setData] = useState([]);
+
+  
+
+
+//   const setState = {
+//     employees: [],
+//     columns: [
+//       {
+//         label: "Image",
+//         field: "image",
+//         sort: "asc",
+//         width: 150,
+//       },
+//       {
+//         label: "Name",
+//         field: "name",
+//         sort: "asc",
+//         width: 200,
+//       },
+//       {
+//         label: "Phone",
+//         field: "phone",
+//         sort: "asc",
+//         width: 200,
+//       },
+//       {
+//         label: "Email",
+//         field: "email",
+//         sort: "asc",
+//         width: 200,
+//       },
+//       {
+//         label: "DOB",
+//         field: "dob",
+//         sort: "asc",
+//         width: 200,
+//       },
+//     ],
+//   };
+
+  
   return (
-    <Row className="center-align flex-column background EmployeeTable">
+    <Row className="center-align flex-column employeeTable">
       <Col>
-        <div className="center-align text-light pt-2">
-          <h2>React Employee Directory</h2>
-        </div>
-        <div className="center-align text-light pb-2">
-          Click on carrots to filter by heading or use the search box to narrow
-          your results.
-        </div>
+        This is the start of the employee table. 
       </Col>
     </Row>
   );
