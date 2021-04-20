@@ -54,4 +54,4 @@ If you have any questions, feel free to contact me and listed below are my conta
 
 GitHub profile: code-monkey713
 
-Email: codemonkey713@gmail.com
+Email: tony.tran713@outlook.com
