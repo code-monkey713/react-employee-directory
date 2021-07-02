@@ -34,7 +34,8 @@ Here are some features of this application.
   - user can limit how many employees to show on the page at once
   - employee table has pagination to load the employees by page
 
-Deployed: https://code-monkey713.github.io/react-employee-directory/
+Netlify Deployed: https://clever-bohr-806128.netlify.app/
+GitHub-Pages Deployed: https://code-monkey713.github.io/react-employee-directory/
 
 ## License
 
